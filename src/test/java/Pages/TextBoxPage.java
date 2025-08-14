@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class TextBoxPage {
-    private WebDriver driver;
-    private WebDriverWait wait;
+    private final WebDriver driver;
+    private final WebDriverWait wait;
 
     public TextBoxPage(WebDriver driver){
         this.driver = driver;
@@ -23,22 +23,22 @@ public class TextBoxPage {
         return this;
     }
 
-    private By fullNameInp = By.xpath("//*[@id=\"userName\"]");
-    private By emailInp = By.xpath("//*[@id=\"userEmail\"]");
-    private By currentAddressInp = By.xpath("//*[@id=\"currentAddress\"]");
-    private By permanentAddressInp = By.xpath("//*[@id=\"permanentAddress\"]");
-    private By submitButton = By.id("submit");
+    private final By fullNameInp = By.xpath("//*[@id=\"userName\"]");
+    private final By emailInp = By.xpath("//*[@id=\"userEmail\"]");
+    private final By currentAddressInp = By.xpath("//*[@id=\"currentAddress\"]");
+    private final By permanentAddressInp = By.xpath("//*[@id=\"permanentAddress\"]");
+    private final By submitButton = By.id("submit");
 
-    private By fullNameOut = By.xpath("//*[@id=\"name\"]");
-    private By emailOut = By.xpath("//*[@id=\"email\"]");
-    private By currentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[3]");
-    private By permanentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[4]");
+    private final By fullNameOut = By.xpath("//*[@id=\"name\"]");
+    private final By emailOut = By.xpath("//*[@id=\"email\"]");
+    private final By currentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[3]");
+    private final By permanentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[4]");
 
 
 
     public TextBoxPage setFullName(String name){
         wait.until(ExpectedConditions.visibilityOfElementLocated(fullNameInp)).sendKeys(name);
-;       return this;
+         return this;
     }
 
     public TextBoxPage setEmail(String email){
@@ -66,6 +66,7 @@ public class TextBoxPage {
         //js.executeScript("arguments[0].scrollIntoView(true);", element);
         submit.click();
         return this;
+
     }
 
     public String getFullNameOut(){

@@ -3,7 +3,6 @@ package tests;
 import Pages.TextBoxPage;
 import TestSetUp.BaseTestAbstract;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class TextBoxInvalidDataTest extends BaseTestAbstract {

@@ -10,8 +10,8 @@ import java.time.Duration;
 
 public class WebTablesPage {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+    private final WebDriver driver;
+    private final WebDriverWait wait;
 
     public WebTablesPage(WebDriver driver){
         this.driver = driver;
@@ -23,17 +23,17 @@ public class WebTablesPage {
         return this;
     }
 
-    private By addButton = By.xpath("//*[@id=\"addNewRecordButton\"]");
-    private By firstnameInp = By.xpath("//*[@id=\"firstName\"]");
-    private By lastNameInp = By.xpath("//*[@id=\"lastName\"]");
-    private By emailInp = By.xpath("//*[@id=\"userEmail\"]");
-    private By ageInp = By.xpath("//*[@id=\"age\"]");
-    private By salaryInp = By.xpath("//*[@id=\"salary\"]");
-    private By departmentInt = By.xpath("//*[@id=\"department\"]");
-    private By submitButton = By.xpath("//*[@id=\"submit\"]");
-    private By closeButtonOfRegistrationForm = By.xpath("/html/body/div[4]/div/div/div[1]/button/span[1]");
+    private final By addButton = By.xpath("//*[@id=\"addNewRecordButton\"]");
+    private final By firstnameInp = By.xpath("//*[@id=\"firstName\"]");
+    private final By lastNameInp = By.xpath("//*[@id=\"lastName\"]");
+    private final By emailInp = By.xpath("//*[@id=\"userEmail\"]");
+    private final By ageInp = By.xpath("//*[@id=\"age\"]");
+    private final By salaryInp = By.xpath("//*[@id=\"salary\"]");
+    private final By departmentInt = By.xpath("//*[@id=\"department\"]");
+    private final By submitButton = By.xpath("//*[@id=\"submit\"]");
+    private final By closeButtonOfRegistrationForm = By.xpath("/html/body/div[4]/div/div/div[1]/button/span[1]");
 
-    private By webTable = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]");
+    private final By webTable = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]");
 
 
     public WebTablesPage clickAddButton(){

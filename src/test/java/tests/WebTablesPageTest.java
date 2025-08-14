@@ -15,7 +15,7 @@ public class WebTablesPageTest extends BaseTestAbstract {
 
     @Override
     @Test
-    public void runTest() throws InterruptedException {
+    public void runTest() {
         WebTablesPage webTablesPage = new WebTablesPage(driver);
 
         webTablesPage
