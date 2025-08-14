@@ -34,6 +34,22 @@ public class WebTablesPage {
     private final By closeButtonOfRegistrationForm = By.xpath("/html/body/div[4]/div/div/div[1]/button/span[1]");
 
     private final By webTable = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]");
+    private final By searchField = By.xpath("//*[@id=\"searchBox\"]");
+
+    private final By getFirstnameInp = By
+            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[1]");
+    private final By getLastNameInp = By
+            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[2]");
+    private final By getAgeInp = By
+            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[3]");
+    private final By getEmailInp = By
+            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[4]");
+    private final By getSalaryInp = By
+            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[5]");
+    private final By getDepartmentInt = By
+            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[6]");
+
+    //private final By deleteActionButton = By.xpath("");
 
 
     public WebTablesPage clickAddButton(){
@@ -82,7 +98,37 @@ public class WebTablesPage {
         return this;
     }
 
+    public WebTablesPage searchInput(String search){
+        driver.findElement(searchField).sendKeys(search);
+        return this;
+    }
+
     public WebElement getWebTable(){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(webTable));
     }
+
+    public String getFirstName(){
+        return driver.findElement(getFirstnameInp).getText();
+    }
+
+    public String getLastName(){
+        return driver.findElement(getLastNameInp).getText();
+    }
+
+    public String getAge(){
+        return driver.findElement(getAgeInp).getText();
+    }
+
+    public String getEmail(){
+        return driver.findElement(getEmailInp).getText();
+    }
+
+    public String getSalary(){
+        return driver.findElement(getSalaryInp).getText();
+    }
+
+    public String getDepartment(){
+        return driver.findElement(getDepartmentInt).getText();
+    }
+
 }

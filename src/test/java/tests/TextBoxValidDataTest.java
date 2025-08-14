@@ -1,5 +1,6 @@
 package tests;
 
+import Data.TextBoxDataProvider;
 import Pages.TextBoxPage;
 import TestSetUp.BaseTestAbstract;
 import org.openqa.selenium.By;
@@ -10,24 +11,14 @@ import org.testng.annotations.Test;
 
 public class TextBoxValidDataTest extends BaseTestAbstract {
 
-    @Override
-    @Test
-    public void runTest() {
+    @Test(dataProvider = "formData", dataProviderClass = TextBoxDataProvider.class)
+    public void runTest(String fullName, String email, String currentAddress, String permanentAddress) {
 
         TextBoxPage textBoxPage = new TextBoxPage(driver);
 
-
-        String fullName = "Ptr Kr";
-        String email = "testtext@gmail.com";
-        String currentAddress = "Dream City";
-        String permanentAddress = "Sad City";
-
         textBoxPage
                 .open()
-                .setFullName(fullName)
-                .setEmail(email)
-                .setCurrentAddres(currentAddress)
-                .setPermanentAddress(permanentAddress)
+                .setUpForm(fullName, email, currentAddress, permanentAddress)
                 .clickSubmit();
 
         WebElement element = driver.findElement(By.id("submit"));
@@ -39,4 +30,7 @@ public class TextBoxValidDataTest extends BaseTestAbstract {
         Assert.assertTrue(textBoxPage.getCurrentAddressOut().contains("Current Address :" + currentAddress), "Current address mismatch");
         Assert.assertTrue(textBoxPage.getPermanentAddressOut().contains("Permananet Address :" + permanentAddress), "Permanent address mismatch");
     }
+
+    @Override
+    public void runTest() {}
 }

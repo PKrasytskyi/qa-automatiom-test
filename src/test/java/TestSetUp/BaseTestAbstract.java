@@ -50,7 +50,7 @@ public abstract class BaseTestAbstract {
         if(driver != null){
             logger.info("Test finished: " + this.getClass().getSimpleName());
             takeScreenshot();
-            //driver.quit();
+            driver.quit();
         }
     }
 

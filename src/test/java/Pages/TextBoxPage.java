@@ -34,24 +34,10 @@ public class TextBoxPage {
     private final By currentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[3]");
     private final By permanentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[4]");
 
-
-
-    public TextBoxPage setFullName(String name){
+    public TextBoxPage setUpForm(String name, String email, String currentAddress, String permanentAddress){
         wait.until(ExpectedConditions.visibilityOfElementLocated(fullNameInp)).sendKeys(name);
-         return this;
-    }
-
-    public TextBoxPage setEmail(String email){
         driver.findElement(emailInp).sendKeys(email);
-        return this;
-    }
-
-    public TextBoxPage setCurrentAddres(String currentAddres){
-        driver.findElement(currentAddressInp).sendKeys(currentAddres);
-        return this;
-    }
-
-    public TextBoxPage setPermanentAddress(String permanentAddress){
+        driver.findElement(currentAddressInp).sendKeys(currentAddress);
         driver.findElement(permanentAddressInp).sendKeys(permanentAddress);
         return this;
     }
@@ -59,11 +45,7 @@ public class TextBoxPage {
     public TextBoxPage clickSubmit(){
         WebElement submit = wait.until(ExpectedConditions.elementToBeClickable(submitButton));
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        // Скрол на половину висоти сторінки
         js.executeScript("window.scrollTo(0, document.body.scrollHeight / 4)");
-        //WebElement element = driver.findElement(By.id("submit"));
-        //JavascriptExecutor js = (JavascriptExecutor) driver;
-        //js.executeScript("arguments[0].scrollIntoView(true);", element);
         submit.click();
         return this;
 
@@ -81,7 +63,6 @@ public class TextBoxPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated
                         (By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div[2]/input")))
                 .getAttribute("class");
-        //return driver.findElement(By.xpath("//*[@id=\"userEmail\"]")).getAttribute("class");
     }
 
     public String getCurrentAddressOut(){

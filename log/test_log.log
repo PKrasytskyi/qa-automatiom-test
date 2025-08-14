@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:28:05.446048700Z</date>
+  <millis>1755088085446</millis>
+  <nanos>48700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: MainPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:29:22.844098800Z</date>
+  <millis>1755088162844</millis>
+  <nanos>98800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: MainPageTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:29:27.201228200Z</date>
+  <millis>1755088167201</millis>
+  <nanos>228200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: MainPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:30:09.878861600Z</date>
+  <millis>1755088209878</millis>
+  <nanos>861600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: MainPageTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:30:12.453029Z</date>
+  <millis>1755088212453</millis>
+  <nanos>29000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: MainPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:48:11.957525600Z</date>
+  <millis>1755089291957</millis>
+  <nanos>525600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:48:17.128513300Z</date>
+  <millis>1755089297128</millis>
+  <nanos>513300</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:55:46.996184600Z</date>
+  <millis>1755089746996</millis>
+  <nanos>184600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:55:48.231787500Z</date>
+  <millis>1755089748231</millis>
+  <nanos>787500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:57:21.736328400Z</date>
+  <millis>1755089841736</millis>
+  <nanos>328400</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:57:26.756864900Z</date>
+  <millis>1755089846756</millis>
+  <nanos>864900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:58:17.599902500Z</date>
+  <millis>1755089897599</millis>
+  <nanos>902500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:58:21.999774800Z</date>
+  <millis>1755089901999</millis>
+  <nanos>774800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T12:59:39.360607400Z</date>
+  <millis>1755089979360</millis>
+  <nanos>607400</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T12:59:43.407608700Z</date>
+  <millis>1755089983407</millis>
+  <nanos>608700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:00:03.349907700Z</date>
+  <millis>1755090003349</millis>
+  <nanos>907700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:00:07.027738800Z</date>
+  <millis>1755090007027</millis>
+  <nanos>738800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:00:21.416621500Z</date>
+  <millis>1755090021416</millis>
+  <nanos>621500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:00:25.185763400Z</date>
+  <millis>1755090025185</millis>
+  <nanos>763400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:00:49.635628300Z</date>
+  <millis>1755090049635</millis>
+  <nanos>628300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:00:54.559683900Z</date>
+  <millis>1755090054559</millis>
+  <nanos>683900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:01:36.460033Z</date>
+  <millis>1755090096460</millis>
+  <nanos>33000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:01:41.061053700Z</date>
+  <millis>1755090101061</millis>
+  <nanos>53700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:02:49.311454300Z</date>
+  <millis>1755090169311</millis>
+  <nanos>454300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:02:53.177510600Z</date>
+  <millis>1755090173177</millis>
+  <nanos>510600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:06:19.022419Z</date>
+  <millis>1755090379022</millis>
+  <nanos>419000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:06:23.640285900Z</date>
+  <millis>1755090383640</millis>
+  <nanos>285900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:08:17.892013Z</date>
+  <millis>1755090497892</millis>
+  <nanos>13000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:08:22.606073300Z</date>
+  <millis>1755090502606</millis>
+  <nanos>73300</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:14:06.947120600Z</date>
+  <millis>1755090846947</millis>
+  <nanos>120600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:14:11.800521700Z</date>
+  <millis>1755090851800</millis>
+  <nanos>521700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:14:36.145128500Z</date>
+  <millis>1755090876145</millis>
+  <nanos>128500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:14:40.570854300Z</date>
+  <millis>1755090880570</millis>
+  <nanos>854300</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:15:24.566514600Z</date>
+  <millis>1755090924566</millis>
+  <nanos>514600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:15:29.037709Z</date>
+  <millis>1755090929037</millis>
+  <nanos>709000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:17:30.235115Z</date>
+  <millis>1755091050235</millis>
+  <nanos>115000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:17:34.703273100Z</date>
+  <millis>1755091054703</millis>
+  <nanos>273100</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:17:53.645654200Z</date>
+  <millis>1755091073645</millis>
+  <nanos>654200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:18:00.097176100Z</date>
+  <millis>1755091080097</millis>
+  <nanos>176100</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:18:43.548013Z</date>
+  <millis>1755091123548</millis>
+  <nanos>13000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:18:50.675804700Z</date>
+  <millis>1755091130675</millis>
+  <nanos>804700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:20:08.422212800Z</date>
+  <millis>1755091208422</millis>
+  <nanos>212800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:20:14.895843900Z</date>
+  <millis>1755091214895</millis>
+  <nanos>843900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:20:40.160393300Z</date>
+  <millis>1755091240160</millis>
+  <nanos>393300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:20:45.707320500Z</date>
+  <millis>1755091245707</millis>
+  <nanos>320500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:21:41.642760100Z</date>
+  <millis>1755091301642</millis>
+  <nanos>760100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:21:47.154722Z</date>
+  <millis>1755091307154</millis>
+  <nanos>722000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:22:11.267287700Z</date>
+  <millis>1755091331267</millis>
+  <nanos>287700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:22:18.954381700Z</date>
+  <millis>1755091338954</millis>
+  <nanos>381700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:22:46.370957400Z</date>
+  <millis>1755091366370</millis>
+  <nanos>957400</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:22:53.380064Z</date>
+  <millis>1755091373380</millis>
+  <nanos>64000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:24:21.149727700Z</date>
+  <millis>1755091461149</millis>
+  <nanos>727700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:24:29.127848700Z</date>
+  <millis>1755091469127</millis>
+  <nanos>848700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:25:43.633294400Z</date>
+  <millis>1755091543633</millis>
+  <nanos>294400</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:25:51.199888100Z</date>
+  <millis>1755091551199</millis>
+  <nanos>888100</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:27:39.928465100Z</date>
+  <millis>1755091659928</millis>
+  <nanos>465100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:27:49.309096500Z</date>
+  <millis>1755091669309</millis>
+  <nanos>96500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:28:53.872563300Z</date>
+  <millis>1755091733872</millis>
+  <nanos>563300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:29:02.913137Z</date>
+  <millis>1755091742913</millis>
+  <nanos>137000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:29:51.887680700Z</date>
+  <millis>1755091791887</millis>
+  <nanos>680700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:30:02.298713500Z</date>
+  <millis>1755091802298</millis>
+  <nanos>713500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:41:44.530140200Z</date>
+  <millis>1755092504530</millis>
+  <nanos>140200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:41:54.591151400Z</date>
+  <millis>1755092514591</millis>
+  <nanos>151400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:42:35.848861Z</date>
+  <millis>1755092555848</millis>
+  <nanos>861000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T13:42:44.890504200Z</date>
+  <millis>1755092564890</millis>
+  <nanos>504200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:53:21.952220600Z</date>
+  <millis>1755093201952</millis>
+  <nanos>220600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T13:53:30.243118200Z</date>
+  <millis>1755093210243</millis>
+  <nanos>118200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvData</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:55:56.767733500Z</date>
+  <millis>1755093356767</millis>
+  <nanos>733500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T13:56:01.968264600Z</date>
+  <millis>1755093361968</millis>
+  <nanos>264600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvData</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:56:38.297501900Z</date>
+  <millis>1755093398297</millis>
+  <nanos>501900</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T13:56:45.253501500Z</date>
+  <millis>1755093405253</millis>
+  <nanos>501500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvData</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:57:15.716052900Z</date>
+  <millis>1755093435716</millis>
+  <nanos>52900</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T13:57:23.228576600Z</date>
+  <millis>1755093443228</millis>
+  <nanos>576600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvData</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T13:59:26.601931300Z</date>
+  <millis>1755093566601</millis>
+  <nanos>931300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T13:59:36.704771600Z</date>
+  <millis>1755093576704</millis>
+  <nanos>771600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvData</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:02:18.539360600Z</date>
+  <millis>1755093738539</millis>
+  <nanos>360600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T14:02:28.378045Z</date>
+  <millis>1755093748378</millis>
+  <nanos>45000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvData</message>
+</record>
+<record>
+  <date>2025-08-13T14:02:28.703770100Z</date>
+  <millis>1755093748703</millis>
+  <nanos>770100</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidData</message>
+</record>
+<record>
+  <date>2025-08-13T14:02:38.238519100Z</date>
+  <millis>1755093758238</millis>
+  <nanos>519100</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidData</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:45:55.587726300Z</date>
+  <millis>1755096355587</millis>
+  <nanos>726300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:45:57.144168600Z</date>
+  <millis>1755096357144</millis>
+  <nanos>168600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:45:57.319087900Z</date>
+  <millis>1755096357319</millis>
+  <nanos>87900</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:45:57.978690200Z</date>
+  <millis>1755096357978</millis>
+  <nanos>690200</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:46:56.091152800Z</date>
+  <millis>1755096416091</millis>
+  <nanos>152800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:46:57.306812Z</date>
+  <millis>1755096417306</millis>
+  <nanos>812000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:46:57.484954100Z</date>
+  <millis>1755096417484</millis>
+  <nanos>954100</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:46:58.135838800Z</date>
+  <millis>1755096418135</millis>
+  <nanos>838800</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:50:01.720466800Z</date>
+  <millis>1755096601720</millis>
+  <nanos>466800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:50:02.946461100Z</date>
+  <millis>1755096602946</millis>
+  <nanos>461100</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:50:03.140189600Z</date>
+  <millis>1755096603140</millis>
+  <nanos>189600</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:50:03.745582300Z</date>
+  <millis>1755096603745</millis>
+  <nanos>582300</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:50:03.930464500Z</date>
+  <millis>1755096603930</millis>
+  <nanos>464500</nanos>
+  <sequence>8</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:50:04.563857200Z</date>
+  <millis>1755096604563</millis>
+  <nanos>857200</nanos>
+  <sequence>11</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:52:37.208528200Z</date>
+  <millis>1755096757208</millis>
+  <nanos>528200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:52:38.402055300Z</date>
+  <millis>1755096758402</millis>
+  <nanos>55300</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:52:38.582870300Z</date>
+  <millis>1755096758582</millis>
+  <nanos>870300</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:52:39.256562400Z</date>
+  <millis>1755096759256</millis>
+  <nanos>562400</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:54:31.727398600Z</date>
+  <millis>1755096871727</millis>
+  <nanos>398600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:54:35.310134500Z</date>
+  <millis>1755096875310</millis>
+  <nanos>134500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:54:35.594172700Z</date>
+  <millis>1755096875594</millis>
+  <nanos>172700</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:54:36.245567900Z</date>
+  <millis>1755096876245</millis>
+  <nanos>567900</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:54:36.428326700Z</date>
+  <millis>1755096876428</millis>
+  <nanos>326700</nanos>
+  <sequence>8</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:54:38.941552100Z</date>
+  <millis>1755096878941</millis>
+  <nanos>552100</nanos>
+  <sequence>11</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:57:37.904471600Z</date>
+  <millis>1755097057904</millis>
+  <nanos>471600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:57:39.095300800Z</date>
+  <millis>1755097059095</millis>
+  <nanos>300800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:57:39.264874400Z</date>
+  <millis>1755097059264</millis>
+  <nanos>874400</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:57:47.654334Z</date>
+  <millis>1755097067654</millis>
+  <nanos>334000</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:59:38.040539800Z</date>
+  <millis>1755097178040</millis>
+  <nanos>539800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T14:59:41.608053700Z</date>
+  <millis>1755097181608</millis>
+  <nanos>53700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T14:59:59.398606800Z</date>
+  <millis>1755097199398</millis>
+  <nanos>606800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:00:06.186440700Z</date>
+  <millis>1755097206186</millis>
+  <nanos>440700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:00:31.807195200Z</date>
+  <millis>1755097231807</millis>
+  <nanos>195200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:00:36.699896400Z</date>
+  <millis>1755097236699</millis>
+  <nanos>896400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:02:00.882442Z</date>
+  <millis>1755097320882</millis>
+  <nanos>442000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:02:06.103941600Z</date>
+  <millis>1755097326103</millis>
+  <nanos>941600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:02:40.882325900Z</date>
+  <millis>1755097360882</millis>
+  <nanos>325900</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:02:42.097806600Z</date>
+  <millis>1755097362097</millis>
+  <nanos>806600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:02:42.280031Z</date>
+  <millis>1755097362280</millis>
+  <nanos>31000</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:02:47.435886900Z</date>
+  <millis>1755097367435</millis>
+  <nanos>886900</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:03:59.605849100Z</date>
+  <millis>1755097439605</millis>
+  <nanos>849100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:04:02.960907500Z</date>
+  <millis>1755097442960</millis>
+  <nanos>907500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:05:28.148203600Z</date>
+  <millis>1755097528148</millis>
+  <nanos>203600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:05:33.552058400Z</date>
+  <millis>1755097533552</millis>
+  <nanos>58400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:09:13.200404300Z</date>
+  <millis>1755097753200</millis>
+  <nanos>404300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:09:17.366186500Z</date>
+  <millis>1755097757366</millis>
+  <nanos>186500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:10:13.868970100Z</date>
+  <millis>1755097813868</millis>
+  <nanos>970100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:10:17.166720400Z</date>
+  <millis>1755097817166</millis>
+  <nanos>720400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:10:53.821312500Z</date>
+  <millis>1755097853821</millis>
+  <nanos>312500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:10:57.114698500Z</date>
+  <millis>1755097857114</millis>
+  <nanos>698500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:11:13.363325Z</date>
+  <millis>1755097873363</millis>
+  <nanos>325000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:11:17.580764500Z</date>
+  <millis>1755097877580</millis>
+  <nanos>764500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:11:58.943951300Z</date>
+  <millis>1755097918943</millis>
+  <nanos>951300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:12:02.680764Z</date>
+  <millis>1755097922680</millis>
+  <nanos>764000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:12:05.966982200Z</date>
+  <millis>1755097925966</millis>
+  <nanos>982200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:12:09.282360500Z</date>
+  <millis>1755097929282</millis>
+  <nanos>360500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:13:20.474218600Z</date>
+  <millis>1755098000474</millis>
+  <nanos>218600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:13:23.819633300Z</date>
+  <millis>1755098003819</millis>
+  <nanos>633300</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:14:26.305448900Z</date>
+  <millis>1755098066305</millis>
+  <nanos>448900</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:14:32.434070Z</date>
+  <millis>1755098072434</millis>
+  <nanos>70000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:14:45.728772500Z</date>
+  <millis>1755098085728</millis>
+  <nanos>772500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:14:50.919404800Z</date>
+  <millis>1755098090919</millis>
+  <nanos>404800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:15:58.873581500Z</date>
+  <millis>1755098158873</millis>
+  <nanos>581500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:16:02.137579500Z</date>
+  <millis>1755098162137</millis>
+  <nanos>579500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:16:52.854251200Z</date>
+  <millis>1755098212854</millis>
+  <nanos>251200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:16:56.238294400Z</date>
+  <millis>1755098216238</millis>
+  <nanos>294400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:17:18.530003900Z</date>
+  <millis>1755098238530</millis>
+  <nanos>3900</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:17:22.370742900Z</date>
+  <millis>1755098242370</millis>
+  <nanos>742900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:17:22.643926100Z</date>
+  <millis>1755098242643</millis>
+  <nanos>926100</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:17:25.406903200Z</date>
+  <millis>1755098245406</millis>
+  <nanos>903200</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:18:17.710916700Z</date>
+  <millis>1755098297710</millis>
+  <nanos>916700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:18:20.742799Z</date>
+  <millis>1755098300742</millis>
+  <nanos>799000</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:18:20.992641900Z</date>
+  <millis>1755098300992</millis>
+  <nanos>641900</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:18:23.952929500Z</date>
+  <millis>1755098303952</millis>
+  <nanos>929500</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:19:16.588877600Z</date>
+  <millis>1755098356588</millis>
+  <nanos>877600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:19:20.210878200Z</date>
+  <millis>1755098360210</millis>
+  <nanos>878200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:19:20.491748600Z</date>
+  <millis>1755098360491</millis>
+  <nanos>748600</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:19:22.818527Z</date>
+  <millis>1755098362818</millis>
+  <nanos>527000</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-13T15:20:12.368013100Z</date>
+  <millis>1755098412368</millis>
+  <nanos>13100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:20:16.483062700Z</date>
+  <millis>1755098416483</millis>
+  <nanos>62700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:20:16.869841700Z</date>
+  <millis>1755098416869</millis>
+  <nanos>841700</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-13T15:20:18.996702100Z</date>
+  <millis>1755098418996</millis>
+  <nanos>702100</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:25:49.129886700Z</date>
+  <millis>1755163549129</millis>
+  <nanos>886700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:25:53.548905800Z</date>
+  <millis>1755163553548</millis>
+  <nanos>905800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:27:45.958148300Z</date>
+  <millis>1755163665958</millis>
+  <nanos>148300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:27:49.950014300Z</date>
+  <millis>1755163669950</millis>
+  <nanos>14300</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:28:10.675389600Z</date>
+  <millis>1755163690675</millis>
+  <nanos>389600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:28:14.464648800Z</date>
+  <millis>1755163694464</millis>
+  <nanos>648800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:28:39.241372700Z</date>
+  <millis>1755163719241</millis>
+  <nanos>372700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:28:42.912134200Z</date>
+  <millis>1755163722912</millis>
+  <nanos>134200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:29:45.662903900Z</date>
+  <millis>1755163785662</millis>
+  <nanos>903900</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:31:08.499277800Z</date>
+  <millis>1755163868499</millis>
+  <nanos>277800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:31:12.340928600Z</date>
+  <millis>1755163872340</millis>
+  <nanos>928600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:33:09.319489500Z</date>
+  <millis>1755163989319</millis>
+  <nanos>489500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:33:14.534080500Z</date>
+  <millis>1755163994534</millis>
+  <nanos>80500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:36:23.881321700Z</date>
+  <millis>1755164183881</millis>
+  <nanos>321700</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:36:27.688405600Z</date>
+  <millis>1755164187688</millis>
+  <nanos>405600</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:37:02.185931800Z</date>
+  <millis>1755164222185</millis>
+  <nanos>931800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:37:05.921486800Z</date>
+  <millis>1755164225921</millis>
+  <nanos>486800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:37:44.590303500Z</date>
+  <millis>1755164264590</millis>
+  <nanos>303500</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:37:49.415407500Z</date>
+  <millis>1755164269415</millis>
+  <nanos>407500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:37:49.565234300Z</date>
+  <millis>1755164269565</millis>
+  <nanos>234300</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:37:53.824322100Z</date>
+  <millis>1755164273824</millis>
+  <nanos>322100</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:38:21.542405100Z</date>
+  <millis>1755164301542</millis>
+  <nanos>405100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:38:25.397686200Z</date>
+  <millis>1755164305397</millis>
+  <nanos>686200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:38:25.529859400Z</date>
+  <millis>1755164305529</millis>
+  <nanos>859400</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:38:28.791212700Z</date>
+  <millis>1755164308791</millis>
+  <nanos>212700</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:40:07.194101Z</date>
+  <millis>1755164407194</millis>
+  <nanos>101000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:40:11.177872200Z</date>
+  <millis>1755164411177</millis>
+  <nanos>872200</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T09:43:18.140429100Z</date>
+  <millis>1755164598140</millis>
+  <nanos>429100</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:43:22.020828900Z</date>
+  <millis>1755164602020</millis>
+  <nanos>828900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:43:22.144362800Z</date>
+  <millis>1755164602144</millis>
+  <nanos>362800</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T09:43:24.308925400Z</date>
+  <millis>1755164604308</millis>
+  <nanos>925400</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T10:09:02.037190400Z</date>
+  <millis>1755166142037</millis>
+  <nanos>190400</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: WebTablesPageTest</message>
+</record>
+<record>
+  <date>2025-08-14T10:09:10.630989800Z</date>
+  <millis>1755166150630</millis>
+  <nanos>989800</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: WebTablesPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T10:09:33.292539800Z</date>
+  <millis>1755166173292</millis>
+  <nanos>539800</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: WebTablesPageTest</message>
+</record>
+<record>
+  <date>2025-08-14T10:09:36.316592500Z</date>
+  <millis>1755166176316</millis>
+  <nanos>592500</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: WebTablesPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T10:11:51.776480300Z</date>
+  <millis>1755166311776</millis>
+  <nanos>480300</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: WebTablesPageTest</message>
+</record>
+<record>
+  <date>2025-08-14T10:11:55.810758100Z</date>
+  <millis>1755166315810</millis>
+  <nanos>758100</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: WebTablesPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T10:12:33.608032600Z</date>
+  <millis>1755166353608</millis>
+  <nanos>32600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: WebTablesPageTest</message>
+</record>
+<record>
+  <date>2025-08-14T10:12:37.677278900Z</date>
+  <millis>1755166357677</millis>
+  <nanos>278900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: WebTablesPageTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T15:39:40.393514600Z</date>
+  <millis>1755185980393</millis>
+  <nanos>514600</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T15:39:47.055436400Z</date>
+  <millis>1755185987055</millis>
+  <nanos>436400</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T15:40:39.081834Z</date>
+  <millis>1755186039081</millis>
+  <nanos>834000</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T15:40:47.973219700Z</date>
+  <millis>1755186047973</millis>
+  <nanos>219700</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-14T15:41:55.354385200Z</date>
+  <millis>1755186115354</millis>
+  <nanos>385200</nanos>
+  <sequence>0</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T15:42:00.961593900Z</date>
+  <millis>1755186120961</millis>
+  <nanos>593900</nanos>
+  <sequence>3</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxValidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T15:42:01.107276700Z</date>
+  <millis>1755186121107</millis>
+  <nanos>276700</nanos>
+  <sequence>4</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>setUp</method>
+  <thread>1</thread>
+  <message>Test started: TextBoxInvalidDataTest</message>
+</record>
+<record>
+  <date>2025-08-14T15:42:04.460467100Z</date>
+  <millis>1755186124460</millis>
+  <nanos>467100</nanos>
+  <sequence>7</sequence>
+  <logger>TestSetUp.BaseTestAbstract</logger>
+  <level>INFO</level>
+  <class>TestSetUp.BaseTestAbstract</class>
+  <method>tearDown</method>
+  <thread>1</thread>
+  <message>Test finished: TextBoxInvalidDataTest</message>
+</record>
+</log>
