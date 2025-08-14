@@ -1,0 +1,8 @@
+<suite name="MyTestSuite">
+    <test name="SmokeTests">
+        <classes>
+            <class name="tests.TextBoxValidDataTest"/>
+            <class name="tests.TextBoxInvalidDataTest"/>
+        </classes>
+    </test>
+</suite>
