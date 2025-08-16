@@ -16,7 +16,7 @@ public class WebTablesPage {
 
     private final WebDriver driver;
     private final WebDriverWait wait;
-
+    private int tableRowIndex = -1;
     public WebTablesPage(WebDriver driver){
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -56,9 +56,35 @@ public class WebTablesPage {
         return this;
     }
 
-    public void clickSubmit(){
+    public WebTablesPage editFirstName(String editedFirstName){
+        WebElement editFirstName = driver.findElement(firstnameInp);
+        editFirstName.clear();
+        editFirstName.sendKeys(editedFirstName);
+        return this;
+    }
+
+    public WebTablesPage editEmail(String editedEmail){
+        WebElement editEmail = driver.findElement(emailInp);
+        editEmail.clear();
+        editEmail.sendKeys(editedEmail);
+        return this;
+    }
+
+    public WebTablesPage clickSubmit(){
        WebElement submit = wait.until(ExpectedConditions.elementToBeClickable(submitButton));
        submit.click();
+       return this;
+    }
+
+    public int checkLastFilledRow(){
+       List<WebElement> rows = driver.findElements(By.cssSelector(".rt-tr-group"));
+       for (int i = 0; i < rows.size(); i++){
+           String text = rows.get(i).getText().trim();
+           if(text.isEmpty()){
+               tableRowIndex = i;
+               break;
+           }
+       } return tableRowIndex - 1;
     }
 
     public String getCellValue(int rowIndex, String columnName) {
@@ -78,6 +104,15 @@ public class WebTablesPage {
         List<WebElement> cells = row.findElements(By.cssSelector(".rt-td"));
 
         return cells.get(headerMap.get(columnName)).getText();
+    }
+
+    public WebTablesPage clickActionButton(String action){
+
+        WebElement row = driver.findElements(By.cssSelector(".rt-tr-group")).get(checkLastFilledRow());
+        WebElement actionButton = row.findElement(By.cssSelector("span[title='" + action + "']"));
+
+        actionButton.click();
+        return this;
     }
 }
 

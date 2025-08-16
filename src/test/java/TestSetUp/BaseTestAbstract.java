@@ -6,7 +6,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
@@ -35,7 +35,7 @@ public abstract class BaseTestAbstract {
 
 
             //init webdriver
-            System.setProperty("webdriver.chrome.driver", "D:\\qa-demo-automation\\chromedriver-win64\\chromedriver.exe");
+            //System.setProperty("webdriver.chrome.driver", "D:\\qa-demo-automation\\chromedriver-win64\\chromedriver.exe");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.manage().window().maximize();
@@ -45,7 +45,7 @@ public abstract class BaseTestAbstract {
         }
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown(){
         if(driver != null){
             logger.info("Test finished: " + this.getClass().getSimpleName());
