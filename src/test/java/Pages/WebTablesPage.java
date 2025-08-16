@@ -34,20 +34,22 @@ public class WebTablesPage {
     private final By closeButtonOfRegistrationForm = By.xpath("/html/body/div[4]/div/div/div[1]/button/span[1]");
 
     private final By webTable = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]");
-    private final By searchField = By.xpath("//*[@id=\"searchBox\"]");
+    private final By searchField = By.id("searchBox");
 
-    private final By getFirstnameInp = By
-            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[1]");
-    private final By getLastNameInp = By
-            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[2]");
-    private final By getAgeInp = By
-            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[3]");
-    private final By getEmailInp = By
-            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[4]");
-    private final By getSalaryInp = By
-            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[5]");
-    private final By getDepartmentInt = By
-            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[6]");
+//    private final By getFirstnameInp = By
+//            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[1]");
+//    private final By getLastNameInp = By
+//            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[2]");
+//    private final By getEmailInp = By
+//            .cssSelector("#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.rt-table > div.rt-tbody > div:nth-child(1) > div > div:nth-child(4)");
+//    private final By getAgeInp = By
+//            .xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[3]");
+//    private final By getSalaryInp = By
+//            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[5]");
+//    private final By getDepartmentInt = By
+//            .xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[6]");
+//
+//    private final By getRow = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div");
 
     //private final By deleteActionButton = By.xpath("");
 
@@ -57,32 +59,12 @@ public class WebTablesPage {
         return this;
     }
 
-    public WebTablesPage setFirstname(String firstname){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(firstnameInp)).sendKeys(firstname);
-        return this;
-    }
-
-    public WebTablesPage setLastName(String lastName){
+    public WebTablesPage setUpForm(String firstName, String lastName, String age, String email, String salary, String department){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(firstnameInp)).sendKeys(firstName);
         driver.findElement(lastNameInp).sendKeys(lastName);
-        return this;
-    }
-
-    public WebTablesPage setEmail(String email){
-        driver.findElement(emailInp).sendKeys(email);
-        return this;
-    }
-
-    public WebTablesPage setAge(String age){
         driver.findElement(ageInp).sendKeys(age);
-        return this;
-    }
-
-    public WebTablesPage setSalary (String salary){
+        driver.findElement(emailInp).sendKeys(email);
         driver.findElement(salaryInp).sendKeys(salary);
-        return this;
-    }
-
-    public WebTablesPage setDepartment(String department){
         driver.findElement(departmentInt).sendKeys(department);
         return this;
     }
@@ -98,37 +80,21 @@ public class WebTablesPage {
         return this;
     }
 
-    public WebTablesPage searchInput(String search){
-        driver.findElement(searchField).sendKeys(search);
-        return this;
+    public void searchField(String searchInp){
+        wait.until(ExpectedConditions.elementToBeClickable(searchField)).click();
+        driver.findElement(searchField).sendKeys(searchInp);
     }
 
-    public WebElement getWebTable(){
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(webTable));
+    public String getElementText(By locator, boolean waitForVisible){
+        if(waitForVisible){
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+        }
+        return driver.findElement(locator).getText();
     }
 
-    public String getFirstName(){
-        return driver.findElement(getFirstnameInp).getText();
+    public String getCollumValue(int columnIndex) {
+        By cellLocator = By.xpath("//*[@id='app']//div[@class='rt-tr-group'][1]//div[@class='rt-td'][" + columnIndex + "]");
+                return wait.until(ExpectedConditions.visibilityOfElementLocated(cellLocator)).getText();
     }
-
-    public String getLastName(){
-        return driver.findElement(getLastNameInp).getText();
-    }
-
-    public String getAge(){
-        return driver.findElement(getAgeInp).getText();
-    }
-
-    public String getEmail(){
-        return driver.findElement(getEmailInp).getText();
-    }
-
-    public String getSalary(){
-        return driver.findElement(getSalaryInp).getText();
-    }
-
-    public String getDepartment(){
-        return driver.findElement(getDepartmentInt).getText();
-    }
-
 }
+

@@ -3,7 +3,6 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -33,6 +32,7 @@ public class TextBoxPage {
     private final By emailOut = By.xpath("//*[@id=\"email\"]");
     private final By currentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[3]");
     private final By permanentAddressOut = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[4]");
+    private final By emailOutAlert = By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div[2]/input");
 
     public TextBoxPage setUpForm(String name, String email, String currentAddress, String permanentAddress){
         wait.until(ExpectedConditions.visibilityOfElementLocated(fullNameInp)).sendKeys(name);
@@ -41,39 +41,47 @@ public class TextBoxPage {
         driver.findElement(permanentAddressInp).sendKeys(permanentAddress);
         return this;
     }
+    private void scrollToMiddle(double fraction) {
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight * arguments[0])", fraction);
+    }
 
-    public TextBoxPage clickSubmit(){
-        WebElement submit = wait.until(ExpectedConditions.elementToBeClickable(submitButton));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollTo(0, document.body.scrollHeight / 4)");
-        submit.click();
-        return this;
+    public void clickSubmit(){
+        scrollToMiddle(0.25);
+        wait.until(ExpectedConditions.elementToBeClickable(submitButton)).click();
+    }
 
+    private String getElementText(By locator, boolean waitForVisible){
+        if(waitForVisible){
+            return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+        }
+        return driver.findElement(locator).getText();
+    }
+
+    private String getElementAttribute(By locator, String attribute, boolean waitForVisible){
+        if(waitForVisible){
+            return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getAttribute(attribute);
+        }
+        return  driver.findElement(locator).getAttribute(attribute);
     }
 
     public String getFullNameOut(){
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(fullNameOut)).getText();
+        return getElementText(fullNameOut, true);
     }
 
     public String getEmailOut(){
-        return driver.findElement(emailOut).getText();
+        return getElementText(emailOut, false);
     }
 
-    public String getEmailOutAler(){
-        return wait.until(ExpectedConditions.visibilityOfElementLocated
-                        (By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div[2]/input")))
-                .getAttribute("class");
+    public String getEmailOutAlert(){
+    return getElementAttribute(emailOutAlert, "class", true);
     }
 
     public String getCurrentAddressOut(){
-        return driver.findElement(currentAddressOut).getText();
+        return getElementText(currentAddressOut, false);
     }
 
     public String getPermanentAddressOut(){
-        return driver.findElement(permanentAddressOut).getText();
+        return getElementText(permanentAddressOut, false);
     }
 
-    public String getEmailFieldClass(){
-        return driver.findElement(emailOut).getAttribute("class");
-    }
 }

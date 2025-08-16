@@ -3,6 +3,7 @@
         <classes>
             <class name="tests.TextBoxValidDataTest"/>
             <class name="tests.TextBoxInvalidDataTest"/>
+            <class name ="tests.WebTablesPageTest"/>
         </classes>
     </test>
 </suite>

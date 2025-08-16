@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class TextBoxValidDataTest extends BaseTestAbstract {
 
-    @Test(dataProvider = "formData", dataProviderClass = TextBoxDataProvider.class)
+    @Test(dataProvider = "formData", dataProviderClass = TextBoxDataProvider.class, priority = 1)
     public void runTest(String fullName, String email, String currentAddress, String permanentAddress) {
 
         TextBoxPage textBoxPage = new TextBoxPage(driver);
