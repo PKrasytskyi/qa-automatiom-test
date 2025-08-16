@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.DataProvider;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -17,27 +16,16 @@ public class WebTablesPage {
 
     private final WebDriver driver;
     private final WebDriverWait wait;
-    private final Map<String, Integer> columIndexMap;
 
     public WebTablesPage(WebDriver driver){
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        this.columIndexMap = new HashMap<>();
     }
 
     public WebTablesPage open(){
         driver.get("https://demoqa.com/webtables");
         scrollToMiddle(0.25);
-        initColumMap();
         return this;
-    }
-
-    private void initColumMap(){
-        List<WebElement> header = driver.findElements(By.xpath("//div[@class='rt-th']"));
-        for (int i = 0; i < header.size(); i++){
-            String headerText = header.get(i).getText().trim();
-            columIndexMap.put(headerText, i + 1);
-        }
     }
 
     private final By addButton = By.xpath("//*[@id=\"addNewRecordButton\"]");
@@ -72,16 +60,6 @@ public class WebTablesPage {
        WebElement submit = wait.until(ExpectedConditions.elementToBeClickable(submitButton));
        submit.click();
     }
-
-//    public Map<String, Integer> getColumnIndexMap() {
-//        Map<String, Integer> map = new HashMap<>();
-//        List<WebElement> headers = driver.findElements(By.xpath("//div[@class='rt-thead -header']//div[@role='columnheader']"));
-//        for (int i = 0; i < headers.size(); i++) {
-//            String colName = headers.get(i).getText().trim();
-//            map.put(colName, i);
-//        }
-//        return map;
-//    }
 
     public String getCellValue(int rowIndex, String columnName) {
         List<WebElement> headers = driver.findElements(By.cssSelector(".rt-th"));
