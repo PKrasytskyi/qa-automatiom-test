@@ -6,33 +6,29 @@ import TestSetUp.BaseTestAbstract;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.Map;
 
 
 public class WebTablesPageTest extends BaseTestAbstract {
 
     @Test(dataProvider = "formData", dataProviderClass = WebTextBoxDataProvider.class, priority = 3)
-    public void runTest(String firstName, String lastName, String age, String email,  String salary, String department) {
+    public void runTest(Map<String, String> userData) {
         WebTablesPage webTablesPage = new WebTablesPage(driver);
 
         webTablesPage
                 .open()
                 .clickAddButton()
-                .setUpForm(firstName, lastName, email, age, salary, department)
-                .clickSubmit()
-                .searchField("Ptr");
+                .setUpForm(userData)
+                .clickSubmit();
 
-        Assert.assertEquals(webTablesPage.getCollumValue(1), firstName);
-        Assert.assertEquals(webTablesPage.getCollumValue(2), lastName);
-        Assert.assertEquals(webTablesPage.getCollumValue(3), email);
-        Assert.assertEquals(webTablesPage.getCollumValue(4), age);
-        Assert.assertEquals(webTablesPage.getCollumValue(5), salary);
-        Assert.assertEquals(webTablesPage.getCollumValue(6), department);
-
+        Assert.assertEquals(webTablesPage.getCellValue(3, "First Name"), userData.get("firstName"));
+        Assert.assertEquals(webTablesPage.getCellValue(3, "Last Name"), userData.get("lastName"));
+        Assert.assertEquals(webTablesPage.getCellValue(3, "Age"), userData.get("age"));
+        Assert.assertEquals(webTablesPage.getCellValue(3, "Email"), userData.get("email"));
+        Assert.assertEquals(webTablesPage.getCellValue(3, "Salary"), userData.get("salary"));
+        Assert.assertEquals(webTablesPage.getCellValue(3, "Department"), userData.get("department"));
 
     }
-
-
-
     @Override
     public void runTest() {}
 }
