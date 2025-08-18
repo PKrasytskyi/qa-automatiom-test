@@ -128,19 +128,4 @@ public class WebTablesPage {
         deleteButton.click();
         return this;
         }
-
-//    public int rowsBefore(){
-//        List<WebElement> rowsBefore = driver.findElements(By.cssSelector(".rt-tr-group"));
-//        return rowsBefore.size() - 1;
-//    }
-//
-//    public int rowsAfter(){
-//        List<WebElement> rowsAfter = driver.findElements(By.cssSelector(".rt-tr-group"));
-//        return rowsAfter.size();
-//    }
-
-//    public boolean rowStillPresent(String deletedRowText, List<WebElement> rowsAfter){
-//        return rowsAfter.stream()
-//                .anyMatch(r -> r.getText().equals(deletedRowText));
-//    }
 }

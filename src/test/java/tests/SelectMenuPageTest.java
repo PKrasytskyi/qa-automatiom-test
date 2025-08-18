@@ -71,4 +71,19 @@ public class SelectMenuPageTest extends BaseTestAbstract {
             Assert.assertTrue(selected.contains(value1));
             Assert.assertTrue(selected.contains(value2));
     }
+
+    @Test(priority = 12)
+    public void getStandartMultiselectValue(){
+
+        String value1 = "Volvo";
+        String value2 = "Opel";
+
+        selectMenuPage
+                .open()
+                .standartMultiSelect(value1, value2);
+
+        List<String> selected = selectMenuPage.getStandartMultiselectValue();
+        Assert.assertTrue(selected.contains(value1));
+        Assert.assertTrue(selected.contains(value2));
+    }
 }

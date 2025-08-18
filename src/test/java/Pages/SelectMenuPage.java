@@ -127,7 +127,15 @@ public class SelectMenuPage {
         select.selectByVisibleText(text1);
         select.selectByVisibleText(text2);
         return this;
-
     }
 
+    //Get selected option
+    public List<String> getStandartMultiselectValue(){
+        WebElement multySelectedOption = driver.findElement(standartMultiSelect);
+        Select select = new Select(multySelectedOption);
+
+        return select.getAllSelectedOptions().stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
+    }
 }
