@@ -3,15 +3,23 @@ package tests;
 import Data.TextBoxDataProvider;
 import Pages.TextBoxPage;
 import TestSetUp.BaseTestAbstract;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+@Epic("Demo")
+@Feature("TextBoxPage")
 public class TextBoxValidDataTest extends BaseTestAbstract {
 
     @Test(dataProvider = "formData", dataProviderClass = TextBoxDataProvider.class, priority = 1)
+    @Story("Check Valid Data")
+    @Description("Check input valid data on the TextBoxPage")
     public void runTest(String fullName, String email, String currentAddress, String permanentAddress) {
 
         TextBoxPage textBoxPage = new TextBoxPage(driver);

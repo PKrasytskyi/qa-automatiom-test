@@ -1,19 +1,20 @@
 package TestSetUp;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.commons.io.FileUtils;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.testng.AllureTestNg;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
+@Listeners({AllureTestNg.class})
 public abstract class BaseTestAbstract {
 
     protected WebDriver driver;
@@ -22,50 +23,29 @@ public abstract class BaseTestAbstract {
 
     @BeforeMethod
     public void setUp() {
-        try {
-            //setUp logger
-            File logDir = new File("log");
-            if (!logDir.exists()) {
-                logDir.mkdirs();
-            }
 
-            FileHandler fileHandler = new FileHandler("log/test_log.log", true);
-            logger.addHandler(fileHandler);
-            logger.info("Test started: " + this.getClass().getSimpleName());
-
-
-            //init webdriver
-            //System.setProperty("webdriver.chrome.driver", "D:\\qa-demo-automation\\chromedriver-win64\\chromedriver.exe");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.manage().window().maximize();
-
-        }catch (IOException e){
-            e.printStackTrace();
-        }
+            logger.info("Test started: " + this.getClass().getSimpleName());
     }
 
-    @AfterClass
-    public void tearDown(){
-        if(driver != null){
-            logger.info("Test finished: " + this.getClass().getSimpleName());
-            takeScreenshot();
-            //driver.quit();
-        }
+        @AfterMethod
+        public void tearDown(ITestResult result){
+            if (driver != null) {
+                if (ITestResult.FAILURE == result.getStatus()) {
+                    saveScreenshot(); //save only when test failed
+                }
+                logger.info("Test finished: " + this.getClass().getSimpleName());
+                //driver.quit();
+            }
+    }
+         //Screenshot method
+         @Attachment(value = "Screenshot", type = "image/png")
+        public byte[] saveScreenshot() {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
-    //Screenshot method
-    public void takeScreenshot(){
-
-        File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-        try {
-            FileUtils.copyFile(screenshotFile, new File("screenshots/screenshot_" + System.currentTimeMillis() + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
-    //abstract method for tests
-    public abstract void runTest() throws InterruptedException;
+//abstract method for tests
+    public void runTest() throws InterruptedException {}
 }

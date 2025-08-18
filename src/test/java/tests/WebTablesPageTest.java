@@ -50,13 +50,34 @@ public class WebTablesPageTest extends BaseTestAbstract {
                 .clickAddButton()
                 .setUpForm(userData)
                 .clickSubmit()
-                .clickActionButton("Edit")
+                .clickEditButton("Edit")
                 .editFirstName(editedFirstName)
                 .editEmail(editedEmail)
                 .clickSubmit();
 
         Assert.assertEquals(webTablesPage.getCellValue(webTablesPage.checkLastFilledRow(), "First Name"), editedFirstName);
         Assert.assertEquals(webTablesPage.getCellValue(webTablesPage.checkLastFilledRow(), "Email"), editedEmail);
+    }
+
+    @Test(dataProvider = "formData", dataProviderClass = WebTextBoxDataProvider.class, priority = 5)
+    public void DeleteRow(Map<String, String> userData){
+
+
+        webTablesPage
+                .open()
+                .clickAddButton()
+                .setUpForm(userData)
+                .clickSubmit();
+
+        int before = webTablesPage.checkLastFilledRow();
+
+        webTablesPage
+                .clickDeleteButton("Delete");
+
+        int after = webTablesPage.checkLastFilledRow();
+
+        Assert.assertEquals(after, before - 1);
+        System.out.println(webTablesPage.getCellValue(webTablesPage.checkLastFilledRow(), "First Name"));
     }
 
     @Override

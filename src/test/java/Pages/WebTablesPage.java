@@ -16,7 +16,8 @@ public class WebTablesPage {
 
     private final WebDriver driver;
     private final WebDriverWait wait;
-    private int tableRowIndex = -1;
+    private int lastFieledRow;
+
     public WebTablesPage(WebDriver driver){
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -80,11 +81,16 @@ public class WebTablesPage {
        List<WebElement> rows = driver.findElements(By.cssSelector(".rt-tr-group"));
        for (int i = 0; i < rows.size(); i++){
            String text = rows.get(i).getText().trim();
-           if(text.isEmpty()){
-               tableRowIndex = i;
-               break;
+           if(!text.isEmpty()){
+               lastFieledRow = i;
+
            }
-       } return tableRowIndex - 1;
+
+           if (lastFieledRow == -1) {
+               throw new RuntimeException("Таблиця порожня – немає заповнених рядків!");
+           }
+       }
+        return lastFieledRow;
     }
 
     public String getCellValue(int rowIndex, String columnName) {
@@ -106,13 +112,35 @@ public class WebTablesPage {
         return cells.get(headerMap.get(columnName)).getText();
     }
 
-    public WebTablesPage clickActionButton(String action){
+    public WebTablesPage clickEditButton(String action){
 
         WebElement row = driver.findElements(By.cssSelector(".rt-tr-group")).get(checkLastFilledRow());
-        WebElement actionButton = row.findElement(By.cssSelector("span[title='" + action + "']"));
+        WebElement editButton = row.findElement(By.cssSelector("span[title='" + action + "']"));
 
-        actionButton.click();
+        editButton.click();
         return this;
     }
-}
 
+    public WebTablesPage clickDeleteButton(String action){
+        int rowIndex = checkLastFilledRow();
+        WebElement row = driver.findElements(By.cssSelector(".rt-tr-group")).get(rowIndex);;
+        WebElement deleteButton = row.findElement(By.cssSelector("span[title='" + action + "']"));
+        deleteButton.click();
+        return this;
+        }
+
+//    public int rowsBefore(){
+//        List<WebElement> rowsBefore = driver.findElements(By.cssSelector(".rt-tr-group"));
+//        return rowsBefore.size() - 1;
+//    }
+//
+//    public int rowsAfter(){
+//        List<WebElement> rowsAfter = driver.findElements(By.cssSelector(".rt-tr-group"));
+//        return rowsAfter.size();
+//    }
+
+//    public boolean rowStillPresent(String deletedRowText, List<WebElement> rowsAfter){
+//        return rowsAfter.stream()
+//                .anyMatch(r -> r.getText().equals(deletedRowText));
+//    }
+}
