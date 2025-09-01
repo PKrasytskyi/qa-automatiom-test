@@ -1,6 +1,6 @@
 package tests;
 
-import Pages.SelectMenuPage;
+import Pages.Demoqa.pages.SelectMenuPage;
 import TestSetUp.BaseTestAbstract;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

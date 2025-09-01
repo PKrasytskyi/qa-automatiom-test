@@ -1,7 +1,7 @@
 package tests;
 
 import Data.TextBoxDataProvider;
-import Pages.TextBoxPage;
+import Pages.Demoqa.pages.TextBoxPage;
 import TestSetUp.BaseTestAbstract;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -30,15 +30,11 @@ public class TextBoxValidDataTest extends BaseTestAbstract {
                 .clickSubmit();
 
         WebElement element = driver.findElement(By.id("submit"));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 
         Assert.assertEquals(textBoxPage.getFullNameOut(), "Name:" + fullName, "Name mismatch");
         Assert.assertEquals(textBoxPage.getEmailOut(), "Email:" + email, "Email mismatch");
         Assert.assertTrue(textBoxPage.getCurrentAddressOut().contains("Current Address :" + currentAddress), "Current address mismatch");
         Assert.assertTrue(textBoxPage.getPermanentAddressOut().contains("Permananet Address :" + permanentAddress), "Permanent address mismatch");
     }
-
-    @Override
-    public void runTest() {}
 }

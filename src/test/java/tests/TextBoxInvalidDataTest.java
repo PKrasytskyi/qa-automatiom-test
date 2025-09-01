@@ -1,7 +1,7 @@
 package tests;
 
 import Data.TextBoxDataProvider;
-import Pages.TextBoxPage;
+import Pages.Demoqa.pages.TextBoxPage;
 import TestSetUp.BaseTestAbstract;
 import org.testng.Assert;
 import org.testng.annotations.Test;

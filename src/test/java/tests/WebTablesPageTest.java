@@ -1,7 +1,7 @@
 package tests;
 
 import Data.WebTextBoxDataProvider;
-import Pages.WebTablesPage;
+import Pages.Demoqa.pages.WebTablesPage;
 import TestSetUp.BaseTestAbstract;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
