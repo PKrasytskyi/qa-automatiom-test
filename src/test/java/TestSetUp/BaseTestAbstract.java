@@ -15,40 +15,41 @@ import org.testng.annotations.Listeners;
 
 import java.util.logging.Logger;
 
-@Listeners({AllureTestNg.class})
+@Listeners({TestSetUp.AllureListener.class})
 public abstract class BaseTestAbstract {
 
     protected WebDriver driver;
     private static final Logger logger = Logger.getLogger(BaseTestAbstract.class.getName());
-
 
     @BeforeMethod
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
 
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
-            driver.manage().window().maximize();
-            logger.info("Test started: " + this.getClass().getSimpleName());
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
+        logger.info("Test started: " + this.getClass().getSimpleName());
     }
 
-        @AfterMethod
-        public void tearDown(ITestResult result){
-            if (driver != null) {
-                if (ITestResult.FAILURE == result.getStatus()) {
-                    saveScreenshot(); //save only when test failed
-                }
-                logger.info("Test finished: " + this.getClass().getSimpleName());
-                //driver.quit();
+    @AfterMethod
+    public void tearDown(ITestResult result) {
+        if (driver != null) {
+            if (ITestResult.FAILURE == result.getStatus()) {
+                saveScreenshot(); //save only when test failed
             }
+            logger.info("Test finished: " + this.getClass().getSimpleName());
+            driver.quit();
+        }
     }
-         //Screenshot method
-         @Attachment(value = "Screenshot", type = "image/png")
-        public byte[] saveScreenshot() {
+
+    //Screenshot method
+    @Attachment(value = "Screenshot", type = "image/png")
+    public byte[] saveScreenshot() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
-//abstract method for tests
-    public void runTest() throws InterruptedException {}
+    public WebDriver getDriver() {
+        return driver;
+    }
 }

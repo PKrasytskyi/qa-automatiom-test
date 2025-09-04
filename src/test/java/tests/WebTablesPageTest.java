@@ -79,9 +79,4 @@ public class WebTablesPageTest extends BaseTestAbstract {
         Assert.assertEquals(after, before - 1);
         System.out.println(webTablesPage.getCellValue(webTablesPage.checkLastFilledRow(), "First Name"));
     }
-
-    @Override
-    public void runTest() {
-
-    }
 }

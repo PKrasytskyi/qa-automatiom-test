@@ -21,7 +21,4 @@ public class TextBoxInvalidDataTest extends BaseTestAbstract {
         Assert.assertTrue(textBoxPage.getEmailOutAlert().contains("field-error"), "Email field is not marked as error");
         System.out.println(textBoxPage.getEmailOutAlert());
     }
-
-    @Override
-    public void runTest() {}
 }
