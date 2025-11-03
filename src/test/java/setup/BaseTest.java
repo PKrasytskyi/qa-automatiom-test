@@ -27,9 +27,10 @@ public abstract class BaseTest {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
+            options.addArguments("--headless=new");
 
             if (Boolean.parseBoolean(headless)) {
-                options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--screen-info={1920x1080}");
+                options.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--screen-info={1920x1080}");
             }
             driver = new ChromeDriver(options);
         }
