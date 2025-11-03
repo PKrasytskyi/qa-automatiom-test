@@ -19,16 +19,16 @@ It is designed to showcase clean code structure, reusability, and CI/CD integrat
 
 ## 🧱 Project Structure
 
-src
-└── test
-├── java
-│ ├── data # Test data providers
-│ ├── pages # Page Object classes
-│ ├── setup # BaseTest setup and driver management
-│ ├── tests # Test classes
-│ └── utils # Helper utilities and listeners
-└── resources
-└── testng.xml # TestNG suite configuration
+* src
+* └── test
+* ├── java
+* │ ├── data # Test data providers
+* │ ├── pages # Page Object classes
+* │ ├── setup # BaseTest setup and driver management
+* │ ├── tests # Test classes
+* │ └── utils # Helper utilities and listeners
+* └── resources
+* └── testng.xml # TestNG suite configuration
 
 
 ---

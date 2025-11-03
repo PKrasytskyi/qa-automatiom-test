@@ -74,6 +74,13 @@ public class SaucedemoCartPage {
             }
         }
 
+        public void waitForItemToDisappear(String itemName) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+                By.xpath("//div[text()='" + itemName + "']/ancestor::div[@class='cart_item']")
+        ));
+    }
+
         public void clickCheckoutButton(){
         driver.findElement(checkoutButton).click();
         }

@@ -102,6 +102,9 @@ public class SaucedemoInventoryPageTests extends BaseTest {
         Allure.step("Remove item: " + itemToRemove);
         cartPage.clickRemoveButton(itemToRemove);
 
+        // Wait for element to disappear
+        cartPage.waitForItemToDisappear(itemToRemove);
+
         List<String> afterRemove = cartPage.getItemNameFromCart();
 
         Allure.step("Verify removed item is not in cart and others remain");
