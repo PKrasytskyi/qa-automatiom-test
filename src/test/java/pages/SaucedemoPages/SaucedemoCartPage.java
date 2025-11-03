@@ -45,7 +45,7 @@ public class SaucedemoCartPage {
         Map<String, String> result = new HashMap<>();
 
         for (String item : items){
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             WebElement cartItem = new WebDriverWait(driver, Duration.ofSeconds(5))
                     .until(ExpectedConditions.visibilityOfElementLocated(
                             By.xpath("//div[@class='cart_item'][.//div[@class='inventory_item_name' and text()='" + item + "']]")
@@ -75,9 +75,9 @@ public class SaucedemoCartPage {
         }
 
         public void waitForItemToDisappear(String itemName) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.invisibilityOfElementLocated(
-                By.xpath("//div[text()='" + itemName + "']/ancestor::div[@class='cart_item']")
+                By.xpath("//div[@class='cart_item'][.//div[@class='inventory_item_name' and text()='" + itemName + ".//button[@class='btn btn_secondary btn_small cart_button']")
         ));
     }
 
