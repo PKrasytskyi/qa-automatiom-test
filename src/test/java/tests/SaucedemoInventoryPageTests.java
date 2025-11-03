@@ -108,7 +108,7 @@ public class SaucedemoInventoryPageTests extends BaseTest {
         List<String> afterRemove = cartPage.getItemNameFromCart();
 
         Allure.step("Verify removed item is not in cart and others remain");
-        Assert.assertEquals(afterRemove.size(), beforeRemove.size() - 1, "Item count did not decrease by 1");
+        Assert.assertEquals(afterRemove.size(), (beforeRemove.size() - 1), "Item count did not decrease by 1");
         Assert.assertFalse(afterRemove.contains(itemToRemove), "Removed item is still in the cart");
 
         for(int i = 1; i < items.length; i++){
