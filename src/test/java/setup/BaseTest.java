@@ -1,8 +1,7 @@
-package TestSetUp;
+package setup;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Attachment;
-import io.qameta.allure.testng.AllureTestNg;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,10 +11,11 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import utils.AllureListener;
 
 import java.util.logging.Logger;
 
-@Listeners({TestSetUp.AllureListener.class})
+@Listeners({AllureListener.class})
 public abstract class BaseTestAbstract {
 
     protected WebDriver driver;
