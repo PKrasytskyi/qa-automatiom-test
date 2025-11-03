@@ -28,10 +28,14 @@ public abstract class BaseTest {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
             options.addArguments("--headless=new");
+            options.addArguments("--screen-info={1920x1080}");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
 
-            if (Boolean.parseBoolean(headless)) {
-                options.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--screen-info={1920x1080}");
-            }
+//            if (Boolean.parseBoolean(headless)) {
+//                options.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--screen-info={1920x1080}");
+//            }
             driver = new ChromeDriver(options);
         }
         driver.manage().window().maximize();
