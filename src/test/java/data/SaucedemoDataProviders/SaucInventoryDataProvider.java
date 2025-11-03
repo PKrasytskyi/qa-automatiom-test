@@ -1,4 +1,4 @@
-package Data;
+package data.SaucedemoDataProviders;
 
 import org.testng.annotations.DataProvider;
 

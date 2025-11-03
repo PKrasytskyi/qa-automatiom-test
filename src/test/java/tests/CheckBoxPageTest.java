@@ -1,17 +1,17 @@
 package tests;
 
-import Data.CheckBoxDataProvider;
-import Pages.Demoqa.pages.CheckBoxPage;
-import TestSetUp.BaseTestAbstract;
+import data.DemoqaDataProviders.CheckBoxDataProvider;
+import pages.Demoqa.pages.CheckBoxPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import setup.BaseTest;
 
 import java.util.List;
 
-public class CheckBoxPageTest extends BaseTestAbstract {
+public class CheckBoxPageTest extends BaseTest {
     private CheckBoxPage checkBoxPage;
 
     @BeforeMethod

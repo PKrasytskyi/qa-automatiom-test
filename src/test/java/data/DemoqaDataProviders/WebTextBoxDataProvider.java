@@ -1,4 +1,4 @@
-package Data;
+package data.DemoqaDataProviders;
 
 import org.testng.annotations.DataProvider;
 

@@ -10,24 +10,29 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import utils.AllureListener;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import java.util.logging.Logger;
 
-@Listeners({AllureListener.class})
-public abstract class BaseTestAbstract {
+public abstract class BaseTest {
 
     protected WebDriver driver;
-    private static final Logger logger = Logger.getLogger(BaseTestAbstract.class.getName());
+    private static final Logger logger = Logger.getLogger(BaseTest.class.getName());
 
     @BeforeMethod
-    public void setUp() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--incognito");
+    @Parameters({"browser", "headless"})
+    public void setUp(@Optional("chrome") String browser, @Optional("false") String headless) {
+        if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--incognito");
 
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver(options);
+            if (Boolean.parseBoolean(headless)) {
+                options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--screen-info={1920x1080}");
+            }
+            driver = new ChromeDriver(options);
+        }
         driver.manage().window().maximize();
         logger.info("Test started: " + this.getClass().getSimpleName());
     }

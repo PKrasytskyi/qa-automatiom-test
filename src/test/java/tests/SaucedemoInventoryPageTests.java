@@ -1,23 +1,24 @@
 package tests;
 
-import Data.SaucInventoryDataProvider;
-import Pages.SaucedemoPages.*;
-import TestSetUp.BaseTestAbstract;
+import data.SaucedemoDataProviders.SaucInventoryDataProvider;
+import pages.SaucedemoPages.*;
 import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import setup.AllureListener;
+import setup.BaseTest;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-import static Pages.SaucedemoPages.CalcPrice.toPrice;
+import static pages.SaucedemoPages.CalcPrice.toPrice;
 
 @Epic("Saucedemo QA Automation")
 @Feature("Shopping Cart Tests")
-@Listeners({TestSetUp.AllureListener.class})
-public class SaucedemoInventoryPageTests extends BaseTestAbstract {
+@Listeners({AllureListener.class})
+public class SaucedemoInventoryPageTests extends BaseTest {
 
     private SaucedemoInventoryPage inventoryPage;
     private SaucedemoCartPage cartPage;

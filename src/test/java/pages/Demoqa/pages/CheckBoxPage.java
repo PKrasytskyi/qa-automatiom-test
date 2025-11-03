@@ -1,4 +1,4 @@
-package Pages.Demoqa.pages;
+package pages.Demoqa.pages;
 
 
 import org.openqa.selenium.*;

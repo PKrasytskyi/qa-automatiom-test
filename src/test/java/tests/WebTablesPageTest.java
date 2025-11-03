@@ -1,17 +1,17 @@
 package tests;
 
-import Data.WebTextBoxDataProvider;
-import Pages.Demoqa.pages.WebTablesPage;
-import TestSetUp.BaseTestAbstract;
+import data.DemoqaDataProviders.WebTextBoxDataProvider;
+import pages.Demoqa.pages.WebTablesPage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import setup.BaseTest;
 
 
 import java.util.Map;
 
 
-public class WebTablesPageTest extends BaseTestAbstract {
+public class WebTablesPageTest extends BaseTest {
 
     private WebTablesPage webTablesPage;
 

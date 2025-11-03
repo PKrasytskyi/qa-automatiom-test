@@ -1,4 +1,4 @@
-package Pages.SaucedemoPages;
+package pages.SaucedemoPages;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.openqa.selenium.By;

@@ -1,12 +1,12 @@
 package tests;
 
-import Data.TextBoxDataProvider;
-import Pages.Demoqa.pages.TextBoxPage;
-import TestSetUp.BaseTestAbstract;
+import data.DemoqaDataProviders.TextBoxDataProvider;
+import pages.Demoqa.pages.TextBoxPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import setup.BaseTest;
 
-public class TextBoxInvalidDataTest extends BaseTestAbstract {
+public class TextBoxInvalidDataTest extends BaseTest {
 
     @Test(dataProvider = "InvalidData", dataProviderClass = TextBoxDataProvider.class, priority = 2)
     public void runTest(String fullName, String email, String currentAddress, String permanentAddress){

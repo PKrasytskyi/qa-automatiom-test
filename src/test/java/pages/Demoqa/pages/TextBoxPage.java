@@ -1,8 +1,9 @@
-package Pages.Demoqa.pages;
+package pages.Demoqa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,7 +27,8 @@ public class TextBoxPage {
     private final By emailInp = By.xpath("//*[@id=\"userEmail\"]");
     private final By currentAddressInp = By.xpath("//*[@id=\"currentAddress\"]");
     private final By permanentAddressInp = By.xpath("//*[@id=\"permanentAddress\"]");
-    private final By submitButton = By.id("submit");
+    //private final By submitButton = By.id("submit");
+    private final By submitButton = By.xpath("//*[@id=\"submit\"]");
 
     private final By fullNameOut = By.xpath("//*[@id=\"name\"]");
     private final By emailOut = By.xpath("//*[@id=\"email\"]");
@@ -46,8 +48,9 @@ public class TextBoxPage {
     }
 
     public void clickSubmit(){
-        scrollToMiddle(0.25);
-        wait.until(ExpectedConditions.elementToBeClickable(submitButton)).click();
+        WebElement button = wait.until(ExpectedConditions.elementToBeClickable(submitButton));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", button);
+        button.click();
     }
 
     private String getElementText(By locator, boolean waitForVisible){

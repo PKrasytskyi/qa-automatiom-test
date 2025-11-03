@@ -1,15 +1,15 @@
 package tests;
 
-import Data.SaucedemoLoginPageDataProvider;
-import Pages.SaucedemoPages.SaucedemoInventoryPage;
-import Pages.SaucedemoPages.SaucedemoLoginPage;
-import TestSetUp.BaseTestAbstract;
+import data.SaucedemoDataProviders.SaucedemoLoginPageDataProvider;
+import pages.SaucedemoPages.SaucedemoInventoryPage;
+import pages.SaucedemoPages.SaucedemoLoginPage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import setup.BaseTest;
 
 
-public class SaucedemoLoginTest extends BaseTestAbstract {
+public class SaucedemoLoginTest extends BaseTest  {
 
     private SaucedemoLoginPage loginPage;
     private SaucedemoInventoryPage inventoryPage;

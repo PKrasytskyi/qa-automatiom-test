@@ -1,4 +1,4 @@
-package Data;
+package data.SaucedemoDataProviders;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

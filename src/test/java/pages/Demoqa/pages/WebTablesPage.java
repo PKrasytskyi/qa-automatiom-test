@@ -1,4 +1,4 @@
-package Pages.Demoqa.pages;
+package pages.Demoqa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -73,7 +73,8 @@ public class WebTablesPage {
 
     public WebTablesPage clickSubmit(){
        WebElement submit = wait.until(ExpectedConditions.elementToBeClickable(submitButton));
-       submit.click();
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", submit);
+        submit.click();
        return this;
     }
 
@@ -116,14 +117,14 @@ public class WebTablesPage {
 
         WebElement row = driver.findElements(By.cssSelector(".rt-tr-group")).get(checkLastFilledRow());
         WebElement editButton = row.findElement(By.cssSelector("span[title='" + action + "']"));
-
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", editButton);
         editButton.click();
         return this;
     }
 
     public WebTablesPage clickDeleteButton(String action){
         int rowIndex = checkLastFilledRow();
-        WebElement row = driver.findElements(By.cssSelector(".rt-tr-group")).get(rowIndex);;
+        WebElement row = driver.findElements(By.cssSelector(".rt-tr-group")).get(rowIndex);
         WebElement deleteButton = row.findElement(By.cssSelector("span[title='" + action + "']"));
         deleteButton.click();
         return this;

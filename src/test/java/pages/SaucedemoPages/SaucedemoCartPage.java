@@ -1,4 +1,4 @@
-package Pages.SaucedemoPages;
+package pages.SaucedemoPages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

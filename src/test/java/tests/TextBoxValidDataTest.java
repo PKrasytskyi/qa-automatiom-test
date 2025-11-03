@@ -1,8 +1,7 @@
 package tests;
 
-import Data.TextBoxDataProvider;
-import Pages.Demoqa.pages.TextBoxPage;
-import TestSetUp.BaseTestAbstract;
+import data.DemoqaDataProviders.TextBoxDataProvider;
+import pages.Demoqa.pages.TextBoxPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -12,10 +11,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import setup.BaseTest;
 
 @Epic("Demo")
 @Feature("TextBoxPage")
-public class TextBoxValidDataTest extends BaseTestAbstract {
+public class TextBoxValidDataTest extends BaseTest {
 
     @Test(dataProvider = "formData", dataProviderClass = TextBoxDataProvider.class, priority = 1)
     @Story("Check Valid Data")

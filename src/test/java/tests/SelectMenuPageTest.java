@@ -1,14 +1,14 @@
 package tests;
 
-import Pages.Demoqa.pages.SelectMenuPage;
-import TestSetUp.BaseTestAbstract;
+import pages.Demoqa.pages.SelectMenuPage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import setup.BaseTest;
 
 import java.util.List;
 
-public class SelectMenuPageTest extends BaseTestAbstract {
+public class SelectMenuPageTest extends BaseTest  {
 
     private SelectMenuPage selectMenuPage;
 
