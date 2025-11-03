@@ -1,4 +1,4 @@
-package TestSetUp;
+package utils;
 
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
@@ -15,7 +15,7 @@ public class AllureListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         Object testClass = result.getInstance();
-        WebDriver driver = ((BaseTestAbstract) testClass).getDriver();
+        WebDriver driver = ((setup.BaseTest) testClass).getDriver();
 
         if (driver != null) {
             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
