@@ -86,7 +86,7 @@ public class SaucedemoInventoryPageTests extends BaseTest {
     @Test(dataProvider = "itemList", dataProviderClass = SaucInventoryDataProvider.class)
     @Story("Remove item from the cart")
     @Description("Verifies that a selected item is removed and others remain")
-    public void removeItemFromCart(String... items){
+    public void removeItemFromCart(String... items) throws InterruptedException {
         Allure.step("Open inventory page and login, add items");
         inventoryPage
                 .open()
@@ -101,7 +101,7 @@ public class SaucedemoInventoryPageTests extends BaseTest {
         String itemToRemove = items[0];
         Allure.step("Remove item: " + itemToRemove);
         cartPage.clickRemoveButton(itemToRemove);
-
+        Thread.sleep(10000);
         List<String> afterRemove = cartPage.getItemNameFromCart();
 
         Allure.step("Verify removed item is not in cart and others remain");
