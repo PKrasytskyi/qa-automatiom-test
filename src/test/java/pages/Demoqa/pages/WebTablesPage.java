@@ -30,13 +30,13 @@ public class WebTablesPage {
     }
 
     private final By addButton = By.xpath("//*[@id=\"addNewRecordButton\"]");
-    private final By firstnameInp = By.xpath("//*[@id=\"firstName\"]");
-    private final By lastNameInp = By.xpath("//*[@id=\"lastName\"]");
-    private final By emailInp = By.xpath("//*[@id=\"userEmail\"]");
-    private final By ageInp = By.xpath("//*[@id=\"age\"]");
-    private final By salaryInp = By.xpath("//*[@id=\"salary\"]");
-    private final By departmentInt = By.xpath("//*[@id=\"department\"]");
-    private final By submitButton = By.xpath("//*[@id=\"submit\"]");
+    private final By firstnameInp = By.id("firstName");
+    private final By lastNameInp = By.id("lastName");
+    private final By emailInp = By.id("userEmail");
+    private final By ageInp = By.id("age");
+    private final By salaryInp = By.id("salary");
+    private final By departmentInt = By.id("department");
+    private final By submitButton = By.id("submit");
 
     public WebTablesPage clickAddButton(){
         wait.until(ExpectedConditions.elementToBeClickable(addButton)).click();
@@ -88,7 +88,7 @@ public class WebTablesPage {
            }
 
            if (lastFieledRow == -1) {
-               throw new RuntimeException("Таблиця порожня – немає заповнених рядків!");
+               throw new RuntimeException("The table is empty");
            }
        }
         return lastFieledRow;
