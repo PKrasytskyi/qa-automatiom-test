@@ -28,7 +28,8 @@ public abstract class BaseTest {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
             options.addArguments("--headless=new");
-            options.addArguments("--screen-info={1920x1080}");
+            //options.addArguments("--screen-info={1920x1080}");
+            options.addArguments("--windows-size=1920, 1080");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--disable-gpu");
